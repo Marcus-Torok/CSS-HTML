@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+div {
+  background-color: #d5e7f2;
+}
+
+h1 {
+  font-family: 'Alex Brush', cursive;
+  font-size: 6rem;
+  margin: 0 auto 35px;
+  width: 40%;
+  color: #3e7287
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.6rem;
+  color: #3e7287;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1rem;
+  color: #11999E;
+}
+
+p {
+  margin: 15px auto 0;
+  font-size: 1.2rem;
+}
+
+.phrase2 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #3e7287;
+}
+
+.top-container {
+  padding-top: 200px;
+  padding-bottom: 10%;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+}
+
+.profile {
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  right: 2.5rem;
+}
+
+.profile-picture {
+  border-radius: 100%;
+  /* position: absolute;
+  left: 10%;
+  top: 40%; */
+}
+
+.skill-row {
+  padding-bottom: 150px;
+  display: inline-block;
+  /*text-align: left;*/
+  width: 65%;
+}
+
+.code-gif {
+  float: right;
+  position: relative;
+  left: 7%;
+  margin-top: 3%;
+}
+
+.art-gif {
+  width: 20%;
+}
+
+.magic-gif {
+  float: left;
+  margin-top: 4%;
+}
+
+.buttonContainer {
+  padding-top: .3rem;
+  padding-bottom: 1.5rem;
+  display: absolute;
+  background-color: #66BFBF;
+}
+
+.emailButton {
+  background: #00d9ff;
+  background-image: -webkit-linear-gradient(top, #00d9ff, #3a679e);
+  background-image: -moz-linear-gradient(top, #00d9ff, #3a679e);
+  background-image: -ms-linear-gradient(top, #00d9ff, #3a679e);
+  background-image: -o-linear-gradient(top, #00d9ff, #3a679e);
+  background-image: linear-gradient(to bottom, #00d9ff, #3a679e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 20px #a5b0c2;
+  font-family: Georgia;
+  color: #000003;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.emailButton:hover {
+  background: #459ed6;
+  background-image: -webkit-linear-gradient(top, #459ed6, #3498db);
+  background-image: -moz-linear-gradient(top, #459ed6, #3498db);
+  background-image: -ms-linear-gradient(top, #459ed6, #3498db);
+  background-image: -o-linear-gradient(top, #459ed6, #3498db);
+  background-image: linear-gradient(to bottom, #459ed6, #3498db);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #012c44;
+}
+
+#code-row {
+  text-align: right;
+  padding-right: 20%;
+  padding-top: 3%;
+}
+
+#magic-row {
+  text-align: left;
+  line-height: 2;
+}
+
+#cloud-image1 {
+  position: absolute;
+  right: 27%;
+  top: 37%;
+  width: 200px;
+  height: auto;
+}
+
+#cloud-image2 {
+  position: absolute;
+  top: 47%;
+  left: 27%;
+  width: 200px;
+  height: auto;
+}
